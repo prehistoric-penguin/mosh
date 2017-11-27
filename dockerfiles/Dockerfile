@@ -1,5 +1,5 @@
 FROM alpine:latest
-MAINTAINER Brett Randall <javabrett@gmail.com>
+LABEL maintainer="Brett Randall <javabrett@gmail.com>"
 
 # NOTE: openssh is only required for testing connection to built docker using the built mosh-server
 RUN apk update \
